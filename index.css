@@ -32,3 +32,12 @@ body, html {
 #congrats-container.visible {
     transform: translate(-50%, -50%) scale(2);
 }
+
+.under-construction {
+    font-size: 5em;
+    font-weight: bold;
+    color: orange;
+    z-index: 1000;
+    transition: transform 0.5s ease-out;
+    white-space: nowrap;
+}
