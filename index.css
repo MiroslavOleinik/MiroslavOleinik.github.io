@@ -41,3 +41,26 @@ body, html {
     transition: transform 0.5s ease-out;
     white-space: nowrap;
 }
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+    .under-construction {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .under-construction {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 320px) {
+    .under-construction {
+        font-size: 1.5em;
+    }
+}
+
